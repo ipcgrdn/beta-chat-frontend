@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+}
+
+.loginPage {
+  align-items: center;
+  background-color: var(--white);
+  background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.signupPage {
+  align-items: center;
+  place-items: center;
+  height: 100vh;
+  display: grid;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-color: rgb(27, 25, 39);
+}
+
+.signuptitle {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(129, 126, 126, 0.4);
+  font-size: 26px;
+  font-weight: 700;
+  text-decoration-color: rgb(27, 25, 39);
+}
+
+.headWrap {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  position: relative;
+  bottom: -45px;
+}
+
+.bodyWrap {
+  margin: 10px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 64px;
+}
+
+.signupbodyWrap {
+    margin: 10px;
+    padding: 50px;
+    background-color: rgba(129, 126, 126, 0.4);
+    border-radius: 64px;
+  }
+
+.inputWrap {
+  display: flex; 
+  border-radius: 8px;
+  padding: 16px; 
+  margin-top: 8px; 
+  background-color: white;
+  border: 1px solid #e2e0e0;
+}
+
+.inputWrap:focus-within {
+  border: 1px solid rgb(27, 25, 39)
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 17px; 
+  font-size: 14px; 
+  font-weight: 400;
+}
+
+.input::placeholder {
+  color: #dadada;
+}
+
+.errorWrap {
+  margin-top: 10px;
+  color: #ef0000;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.footWrap {
+  width: 20%;
+}
+
+.button { 
+  width: 100%;
+  height: 48px;
+  border: none;
+  font-weight: 700;
+  background-color: rgb(27, 25, 39);
+  border-radius: 64px;
+  color: white; 
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+  
+.button:disabled {
+  background-color: #dadada;
+  color: white;
+} 
+
+.signupWrap {
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.signupWrap:visited {
+  text-decoration-color: black;
+  background-color: #e2e0e0;
+}
+
+.mainpage {
+  align-items: center;
+  background-color: var(--white);
+  background: url("https://res.cloudinary.com/dci1eujqw/image/upload/v1616769558/Codepen/waldemar-brandt-aThdSdgx0YM-unsplash_cnq4sb.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-rows: 1fr, 1fr, 2fr;
+  height: 100vh;
+  place-items: center;
+}
+
+.title {
+  text-align: center;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration-color: rgb(27, 25, 39);
+}
+
+.contentButton {
+  display: block;
+  width: 500px;
+  height: 50px;
+  border: none;
+  font-weight: 700;
+  background-color: rgb(27, 25, 39);
+  border-radius: 64px;
+  color: white; 
+  margin: 30px;
+  cursor: pointer;
+}
